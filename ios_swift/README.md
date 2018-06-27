@@ -41,7 +41,7 @@ If the CocoaPods repository is not confifgured, run the following command:
 $ pod setup
 ```
 
-For this starter, a pre-configured `Podfile` has been included in the **ios_swift/Podfile** location. To download and install the required dependencies, run the following command in the **ios_swift** directory:
+For this starter, a pre-configured `Podfile` has been included in the **(projectrootdirectory)/Podfile** location. To download and install the required dependencies, run the following command in the **(projectrootdirectory)**:
 
 ```bash
 $ pod install
@@ -75,7 +75,7 @@ To use the Watson Developer Cloud iOS SDK in any of your applications, specify i
 github "watson-developer-cloud/ios-sdk"
 ```
 
-For this starter, a pre-configured `Cartfile` has been included in the **ios_swift/Cartfile** location
+For this starter, a pre-configured `Cartfile` has been included in the **(projectrootdirectory)/Cartfile** location
 
 Run the following command to build the dependencies and frameworks:
 
@@ -85,7 +85,7 @@ $ carthage update --platform iOS
 
 > **Note**: You may have to run `carthage update --platform iOS --no-use-binaries`, if the binary is a lower version than your current version of Swift.
 
-Once the build has completed, the frameworks can be found in the **ios_swift/Carthage/Build/iOS/** folder. The Xcode project in this starter already includes framework links to the following frameworks in this directory:
+Once the build has completed, the frameworks can be found in the **(projectrootdirectory)/Carthage/Build/iOS/** folder. The Xcode project in this starter already includes framework links to the following frameworks in this directory:
 
 * **VisualRecognitionV3.framework**
 * **RestKit.framework**
