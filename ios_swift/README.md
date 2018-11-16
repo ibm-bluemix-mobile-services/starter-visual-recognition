@@ -22,9 +22,9 @@ This Bluemix Mobile Starter will showcase the Visual Recognition service from Wa
 * Swift 3.0
 
 ### Configuration
-* [Bluemix Mobile services Dependency Mangagement](#bluemix-mobile-services-dependency-management)
+* [Bluemix Mobile services Dependency Management](#bluemix-mobile-services-dependency-management)
 * [Watson Dependency Management](#watson-dependency-management)
-* [Watson Credential Mangement](#watson-credential-mangement)
+* [Watson Credential Management](#watson-credential-management)
 
 #### Bluemix Mobile services Dependency Management
 The Bluemix Mobile services SDK uses [CocoaPods](https://cocoapods.org/) to manage and configure dependencies. To use our latest SDKs you need version 1.1.0.rc.2.
@@ -35,7 +35,7 @@ You can install CocoaPods using the following command:
 $ sudo gem install cocoapods --pre
 ```
 
-If the CocoaPods repository is not confifgured, run the following command:
+If the CocoaPods repository is not configured, run the following command:
 
 ```bash
 $ pod setup
@@ -46,7 +46,7 @@ For this starter, a pre-configured `Podfile` has been included in the **(project
 ```bash
 $ pod install
 ```
-Now Open the Xcode workspace: `{APP_Name}.xcworkspace`. From now on, open the `.xcworkspace` file becuase it contains all the dependencies and configurations.
+Now Open the Xcode workspace: `{APP_Name}.xcworkspace`. From now on, open the `.xcworkspace` file because it contains all the dependencies and configurations.
 
 If you run into any issues during the pod install, it is recommended to run a pod update by using the following commands:
 
